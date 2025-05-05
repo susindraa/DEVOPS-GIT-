@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"d1144096fad8196a","type":"text","text":"code","x":-288,"y":-259,"width":250,"height":60},
+		{"id":"f49f011d64fba620","type":"text","text":"docker file","x":108,"y":-80,"width":250,"height":60},
+		{"id":"1371118a83253bd8","type":"text","text":"git hub","x":108,"y":-620,"width":250,"height":60},
+		{"id":"a271cbf6d6237b8d","type":"text","text":"docker image","x":-280,"y":450,"width":250,"height":60},
+		{"id":"f8efa94bb02d0479","type":"text","text":"kubernetes\n","x":-280,"y":840,"width":250,"height":60},
+		{"id":"15271193b8f9002a","type":"text","text":"builds image","x":400,"y":590,"width":250,"height":60},
+		{"id":"71e1c812153d1c86","type":"text","text":"image contains all the information no need for code from here\n","x":440,"y":810,"width":250,"height":180}
+	],
+	"edges":[
+		{"id":"bf16c05981bfbdaa","fromNode":"a271cbf6d6237b8d","fromSide":"right","toNode":"15271193b8f9002a","toSide":"top"},
+		{"id":"74f7db71b57a94c6","fromNode":"15271193b8f9002a","fromSide":"bottom","toNode":"71e1c812153d1c86","toSide":"top"},
+		{"id":"066ed121805ddfc2","fromNode":"a271cbf6d6237b8d","fromSide":"bottom","toNode":"f8efa94bb02d0479","toSide":"top","label":"goes to kubernetes"},
+		{"id":"f7f49edacaf2062a","fromNode":"1371118a83253bd8","fromSide":"bottom","toNode":"d1144096fad8196a","toSide":"right","label":"1\nSource code"},
+		{"id":"97c03397058459a6","fromNode":"d1144096fad8196a","fromSide":"bottom","toNode":"f49f011d64fba620","toSide":"top","label":"2\ncode contains"},
+		{"id":"cec9839f2dd070ee","fromNode":"f49f011d64fba620","fromSide":"left","toNode":"a271cbf6d6237b8d","toSide":"right","label":"3\ncreates image based\non image"}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "minimal-style@@bold-color@@dark": "#E25A5A",
+  "minimal-style@@bold-color@@light": "#E91717",
+  "minimal-style@@h1-color@@dark": "#FBA155",
+  "minimal-style@@h3-color@@light": "#14BE20",
+  "minimal-style@@h3-color@@dark": "#FFFFFF",
+  "minimal-style@@h2-color@@light": "#ED36A3",
+  "minimal-style@@h1-color@@light": "#FBA155",
+  "minimal-style@@h4-color@@light": "#35C5B4",
+  "minimal-style@@h5-color@@light": "#D63CBF",
+  "minimal-style@@h6-color@@light": "#3C3DD7"
+}

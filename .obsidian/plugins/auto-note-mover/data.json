@@ -1,0 +1,93 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": true,
+  "folder_tag_pattern": [
+    {
+      "folder": "Middle level learning/git-hub",
+      "tag": "#goes-to/git-hub",
+      "pattern": ""
+    },
+    {
+      "folder": "Middle level learning/linux",
+      "tag": "#goes-to/linux",
+      "pattern": ""
+    },
+    {
+      "folder": "Middle level learning/jenkins",
+      "tag": "#goes-to/jenkins",
+      "pattern": ""
+    },
+    {
+      "folder": "Middle level learning/docker",
+      "tag": "#goes-to/docker",
+      "pattern": ""
+    },
+    {
+      "folder": "Middle level learning/docker",
+      "tag": "",
+      "pattern": "docc"
+    },
+    {
+      "folder": "Middle level learning/maven",
+      "tag": "#goes-to/maven",
+      "pattern": ""
+    },
+    {
+      "folder": "practice",
+      "tag": "#goes-to/practice",
+      "pattern": ""
+    },
+    {
+      "folder": "Middle level learning/Terraform",
+      "tag": "#goes-to/terraform",
+      "pattern": ""
+    },
+    {
+      "folder": "Middle level learning/ansible",
+      "tag": "#goes-to/ansible",
+      "pattern": ""
+    },
+    {
+      "folder": "Middle level learning/ansible",
+      "tag": "",
+      "pattern": "{-ansible}"
+    },
+    {
+      "folder": "Middle level learning/kubernetes",
+      "tag": "",
+      "pattern": "{-kubernetes}"
+    },
+    {
+      "folder": "Middle level learning/Terraform",
+      "tag": "",
+      "pattern": "terra"
+    },
+    {
+      "folder": "Middle level learning/gitlab",
+      "tag": "#goes-to/gitlab",
+      "pattern": ""
+    },
+    {
+      "folder": "Middle level learning/gitlab",
+      "tag": "",
+      "pattern": "-gitlab"
+    },
+    {
+      "folder": "Middle level learning/linux",
+      "tag": "",
+      "pattern": "-lion"
+    },
+    {
+      "folder": "",
+      "tag": "",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"33ad1e23bb149f51","type":"text","text":"Debugging scripts","x":-347,"y":-52,"width":250,"height":60},
+		{"id":"8aa2922ca2ae34a8","type":"text","text":"commands","x":17,"y":-70,"width":250,"height":60},
+		{"id":"8cc0775fa80b5e56","type":"text","text":"**Linux Architecture**","x":-347,"y":100,"width":250,"height":60},
+		{"id":"d0c9a0196985a0d1","type":"text","text":"**Kernel**","x":84,"y":109,"width":250,"height":60},
+		{"id":"1ec8c06203716d6d","type":"text","text":"**System Libraries**","x":523,"y":104,"width":250,"height":39},
+		{"id":"b015e0b90a52c4e9","type":"text","text":"**User Applications:**","x":949,"y":93,"width":250,"height":60},
+		{"id":"6e8b399651013c06","type":"text","text":"","x":-273,"y":386,"width":250,"height":60},
+		{"id":"74627ee7f6faccc2","type":"text","text":"**Shell:**","x":32,"y":468,"width":250,"height":60},
+		{"id":"04df3f077497c475","type":"text","text":"command-line interface for interacting with the OS","x":32,"y":602,"width":250,"height":60},
+		{"id":"5a22d9b74d1ddaba","type":"text","text":"Programs running on top of the OS.","x":951,"y":228,"width":250,"height":92},
+		{"id":"e981143513d9fc69","type":"text","text":"\nExample\n","x":1367,"y":89,"width":250,"height":60},
+		{"id":"8eaa80e13ade3722","type":"text","text":"Servers comes with Linux OS system","x":1226,"y":262,"width":250,"height":60},
+		{"id":"6fe6dc6e932a9c50","type":"text","text":"managing hardware resources.","x":60,"y":220,"width":250,"height":135},
+		{"id":"b8c501ba6ac51384","type":"text","text":"applications to interact with the kernel.","x":480,"y":220,"width":250,"height":110}
+	],
+	"edges":[
+		{"id":"f796952e4e9c4c19","fromNode":"33ad1e23bb149f51","fromSide":"right","toNode":"8aa2922ca2ae34a8","toSide":"left"},
+		{"id":"91f2cc7d29c47d4b","fromNode":"8cc0775fa80b5e56","fromSide":"right","toNode":"d0c9a0196985a0d1","toSide":"left"},
+		{"id":"28d991776655d178","fromNode":"d0c9a0196985a0d1","fromSide":"bottom","toNode":"6fe6dc6e932a9c50","toSide":"top"},
+		{"id":"54939a743d3e9f11","fromNode":"d0c9a0196985a0d1","fromSide":"right","toNode":"1ec8c06203716d6d","toSide":"left"},
+		{"id":"f65be5511bc83da1","fromNode":"1ec8c06203716d6d","fromSide":"bottom","toNode":"b8c501ba6ac51384","toSide":"top"},
+		{"id":"8a95a6d753f7ffe6","fromNode":"1ec8c06203716d6d","fromSide":"right","toNode":"b015e0b90a52c4e9","toSide":"left"},
+		{"id":"5f0a4347c12923c1","fromNode":"8cc0775fa80b5e56","fromSide":"bottom","toNode":"6e8b399651013c06","toSide":"top"},
+		{"id":"14009d9b041ff137","fromNode":"6e8b399651013c06","fromSide":"bottom","toNode":"74627ee7f6faccc2","toSide":"top"},
+		{"id":"abcd5928bae923b4","fromNode":"74627ee7f6faccc2","fromSide":"bottom","toNode":"04df3f077497c475","toSide":"top"},
+		{"id":"10db0d1e3f2d4c84","fromNode":"b015e0b90a52c4e9","fromSide":"bottom","toNode":"5a22d9b74d1ddaba","toSide":"top"},
+		{"id":"fd220d6b6b9167b2","fromNode":"b015e0b90a52c4e9","fromSide":"right","toNode":"e981143513d9fc69","toSide":"left"},
+		{"id":"6bf2e2b8d382d1fe","fromNode":"e981143513d9fc69","fromSide":"bottom","toNode":"8eaa80e13ade3722","toSide":"top"}
+	]
+}

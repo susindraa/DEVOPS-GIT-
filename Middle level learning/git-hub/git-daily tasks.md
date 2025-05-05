@@ -1,0 +1,98 @@
+
+#goes-to/git-hub 
+
+
+
+- [ ] git config --global user.name "Your Name"
+- [ ] git config --global user.email johndoe@example.com
+- [ ] git config --global core.editor nano
+- [ ] git config --global init.defaultBranch main
+- [ ] git config --list
+- [ ] git --version
+- [ ] cat ~/.gitconfig
+- [ ] ls .git
+- [ ] ls
+- [ ] ls -lah
+- [ ] cd
+- [ ] pwd
+- [ ] rm README.md
+- [ ] rm -r ebook
+- [ ] mkdir My_New_Directory
+- [ ] touch README.md
+- [ ] git init
+- [ ] echo "# Demo Project" >> README.md
+- [ ] git add NAME_OF_FILE
+- [ ] git add .
+- [ ] git commit -m "Your Commit Message Here"
+- [ ] git commit -a -m "Your Commit Message Here"
+- [ ] gpg --full-generate-key
+- [ ] gpg --armor --export E630A0A00CAA7AAA
+- [ ] git config --global user.signingkey E630A0A00CAA7AAA
+- [ ] git config --global commit.gpgsign true
+- [ ] git status
+- [ ] echo "Git is awesome!" >> README.md
+- [ ] git log --follow [file]
+- [ ] git log
+- [ ] git diff fa583473b4be2807b45f35b755aa84ac78922259
+- [ ] git log --oneline
+- [ ] touch .gitignore
+- [ ] config.php
+- [ ] gi list
+- [ ] gi laravel
+- [ ] ssh-keygen
+- [ ] git remote -v
+- [ ] git push -u origin main
+- [ ] git pull origin main
+- [ ] git branch newFeature
+- [ ] git checkout newFeature
+- [ ] git checkout -b newFeature
+- [ ] Switched to a new branch 'newFeature'
+- [ ] git branch
+- [ ] git checkout main
+- [ ] git checkout newFeature
+- [ ] git branch
+- [ ] git log BranchA..BranchB
+- [ ] git diff BranchB...BranchA
+- [ ] git branch -m wrong-branch-name correct-branch-name
+- [ ] git branch -m my-branch-name - change name
+- [ ] git branch -d name_of_the_branch delete locally
+- [ ] git push origin --delete name_of_the_branch delete  on remote
+- [ ] git fetch
+	- [ ] **Downloads** commits, branches, and tags **from the remote repository** into your local repo — **but does NOT merge or modify your working files.**
+- [ ] git checkout main
+- [ ] git merge newFeature
+- [ ] git diff newFeature
+- [ ] git checkout -b conflictDemo
+- [ ] echo "`<p>Conflict Demo</p>" >> feature1.html`
+- [ ] cat feature1.html
+- [ ] git commit -am "Conflict Demo 1"
+- [ ] git checkout main
+- [ ] git commit -am "Resolve merge conflict"
+- [ ] git commit -m "Committing the wrong changes"
+- [ ] git commit --amend
+- [ ] git reset --soft HEAD~1
+- [ ] git reset [--soft|--hard] [<reference-to-commit>]
+- [ ] git add .
+- [ ] git commit -m "Your new commit message"
+- [ ] git log
+- [ ] git reset --soft HEAD~n
+- [ ] git@github.com:bobbyiliev/introduction-to-bash-scripting.git
+- [ ] git clone git@github.com:bobbyiliev/introduction-to-bashscripting.git
+- [ ] git clone git@github.com:your_user/your_repo
+- [ ] git checkout -b branch_name
+- [ ] git add .
+- [ ] git commit -m "Commit Message"
+- [ ] git push origin branch_name
+- [ ] git stash
+- [ ] git stash -u
+- [ ] git stash -a
+- [ ] git stash apply
+- [ ] git stash list
+- [ ] git stash apply n
+- [ ] git stash apply "stash@{n}"
+- [ ] git rebase feature dev
+- [ ] git rebase -i feature main
+- [ ] git rebase -i main
+- [ ] git log
+- [ ] git switch branch-name
+- [ ] git switch -

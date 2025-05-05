@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"ad0d47f988f0d267","type":"text","text":"resource \"aws_instance\" \"this\" {\n  ami           = var.ami_id\n  instance_type = var.instance_type\n  tags = {\n    Name = var.instance_name\n  }\n}\n","x":67,"y":-760,"width":353,"height":380,"color":"1"},
+		{"id":"0db3dc410af6e1e1","type":"text","text":"variable \"ami_id\" {\n  description = \"AMI to use for the instance\"\n  type        = string\n}\n\nvariable \"instance_type\" {\n  description = \"Type of instance\"\n  type        = string\n}\n\nvariable \"instance_name\" {\n  description = \"Name tag for instance\"\n  type        = string\n}\n","x":633,"y":-1060,"width":447,"height":560},
+		{"id":"39ee68353fdf1c91","type":"text","text":"\nprovider \"aws\" {\n  region = \"us-east-1\" \n}\n\nmodule \"web_server\" {\n  source         = \"./modules/ec2-instance\"\n  ami_id         = \"ami-1234567890abcdef0\"\n  instance_type  = \"t2.micro\"\n  instance_name  = \"WebServer\"\n}\n\nmodule \"db_server\" {\n  source         = \"./modules/ec2-instance\"\n  ami_id         = \"ami-1234567890abcdef0\"\n  instance_type  = \"t2.small\"\n  instance_name  = \"DatabaseServer\"\n}\n\nmodule \"cache_server\" {\n  **source         = \"./modules/ec2-instance\"**\n  ami_id         = \"ami-1234567890abcdef0\"\n  instance_type  = \"t2.nano\"\n  instance_name  = \"CacheServer\"\n}\n\noutput \"web_server_id\" {\n  value = module.web_server.instance_id\n}\n\noutput \"db_server_id\" {\n  value = module.db_server.instance_id\n}\n\noutput \"cache_server_id\" {\n  value = module.cache_server.instance_id\n}\n\n","x":-760,"y":-500,"width":560,"height":860},
+		{"id":"a1e0353f8c51dd11","type":"text","text":"output \"instance_id\" {\n  value = aws_instance.this.id\n}\n","x":1280,"y":-1040,"width":344,"height":180}
+	],
+	"edges":[
+		{"id":"f2dc538247055e5c","fromNode":"39ee68353fdf1c91","fromSide":"right","toNode":"ad0d47f988f0d267","toSide":"left"},
+		{"id":"53e703826fc1fd09","fromNode":"ad0d47f988f0d267","fromSide":"right","toNode":"0db3dc410af6e1e1","toSide":"left"},
+		{"id":"1bbc683a6629892f","fromNode":"0db3dc410af6e1e1","fromSide":"right","toNode":"a1e0353f8c51dd11","toSide":"left"}
+	]
+}
