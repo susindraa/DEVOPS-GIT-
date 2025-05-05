@@ -11,14 +11,10 @@
             "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HOME.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "HOME"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Deficit",
+                "query": "secret key",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,13 +197,16 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "practice/budget.md",
+    "aws related/secret keys.md",
+    "Middle level learning/ansible/how i learned ansible.md",
     "HOME.md",
+    "practice/budget.md",
     "kubernetes canvas.canvas",
     "Middle level learning/docker/doker docc canvas.canvas",
     "Middle level learning/kubernetes/working of kubernets {-kubernetes} canvas.canvas",
@@ -220,7 +219,6 @@
     "Middle level learning/Terraform/day 08.md",
     "Middle level learning/Terraform/day 07.md",
     "Middle level learning/Terraform/day 06.md",
-    "Middle level learning/ansible/how i learned ansible.md",
     "Middle level learning/ansible/Day 10.md",
     "Middle level learning/ansible/Day 08.md",
     "Middle level learning/ansible/day 07..md",
@@ -239,7 +237,6 @@
     "nginx canvas.canvas",
     "Middle level learning/linux/day course/Day 03 User management.md",
     "Middle level learning/linux/linux practice -lion.md",
-    "Middle level learning/linux/day course/day 02 Folder structure.md",
     "Pasted image 20250503204818.png",
     "Pasted image 20250503192834.png",
     "Pasted image 20250503192823.png",
